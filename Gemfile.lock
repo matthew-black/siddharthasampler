@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    siddharthasampler (0.2.0)
+    siddharthasampler (0.2.1)
 
 GEM
   remote: https://rubygems.org/
@@ -14,6 +14,7 @@ PLATFORMS
 DEPENDENCIES
   bundler (~> 1.16)
   rake (~> 10.0)
+  siddharthasampler!
 
 BUNDLED WITH
    1.16.0
