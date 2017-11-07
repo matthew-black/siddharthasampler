@@ -2,7 +2,7 @@ require "siddharthasampler/version"
 
 
 module Siddharthasampler
-  def read(words = 1000)
+  def read(minimum_chars = 1000)
     file = './lib/siddhartha.txt'
     text = []
     File.readlines(file).each do |line|
@@ -14,7 +14,7 @@ module Siddharthasampler
 
     todays_siddhartha = []
     i = 0
-    until todays_siddhartha.join(' ').length > words
+    until todays_siddhartha.join(' ').length > minimum_chars
       todays_siddhartha << siddhartha_paragraphs[rando + i]
       i = i + 1
     end

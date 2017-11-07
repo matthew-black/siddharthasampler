@@ -9,7 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Matthew Black"]
   spec.email         = ["matthewallenblack@gmail.com"]
 
-  spec.summary       = %q{Outputs a > 1,000-word excerpt of a great book.}
+  spec.summary       = %q{Outputs a > 1,000-character excerpt of a great book.}
+  spec.description      = "A ~1,000-character selection is the default, but you can change that by calling Siddharthasampler.read(2000), for example."
   spec.homepage      = "https://github.com/matthew-black/siddharthasampler"
   spec.license       = "MIT"
 
